@@ -1,0 +1,10 @@
+{
+    "e-message adapter settings": "Configuración del adaptador para mensajes electrónicos",
+    "userID": "e*mensaje ID de usuario",
+    "lblUsername": "Nombre de usuario",
+    "hlpUsername": "e*Nombre de usuario del mensaje",
+    "lblPassword": "Contraseña",
+    "hlpPassword": "e*Contraseña del mensaje",
+    "tblTitleCallNr": "Número de buscapersonas",
+    "tblTitleEnableNotification": "Usar para notificaciones"
+}

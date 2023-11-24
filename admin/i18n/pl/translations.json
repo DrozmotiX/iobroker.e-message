@@ -1,0 +1,10 @@
+{
+    "e-message adapter settings": "Ustawienia adaptera dla wiadomości e-mail",
+    "userID": "Identyfikator użytkownika wiadomości e*",
+    "lblUsername": "Nazwa użytkownika",
+    "hlpUsername": "e*Nazwa użytkownika wiadomości",
+    "lblPassword": "Hasło",
+    "hlpPassword": "e*Wiadomość hasło",
+    "tblTitleCallNr": "Numer pagera",
+    "tblTitleEnableNotification": "Użyj do powiadomień"
+}

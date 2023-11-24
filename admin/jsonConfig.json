@@ -1,0 +1,25 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"userID": {
+			"type": "text",
+			"label": "lblUsername",
+			"help": "hlpUsername",
+			"newLine": true
+		},
+		"password": {
+			"type": "password",
+			"label": "lblPassword",
+			"help": "hlpPassword"
+		},
+		"pagers": {
+			"type": "table",
+			"items" : [
+				{"type": "text", "width": "50%", "title": "tblTitleCallNr", "attr": "pagerID", "filter": false, "sort": true, "default": ""},
+				{"type": "checkbox", "width": "50%", "title": "tblTitleEnableNotification", "attr": "pagerEnabled", "filter": false, "sort": true, "default": ""}],
+			"label": "e*Message pagers and their configuration",
+			"newLine": true
+		}
+	}
+}

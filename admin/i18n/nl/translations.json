@@ -1,0 +1,10 @@
+{
+    "e-message adapter settings": "Adapterinstellingen voor e-bericht",
+    "userID": "e*message gebruikers-ID",
+    "lblUsername": "Gebruikersnaam",
+    "hlpUsername": "e*Message-gebruikersnaam",
+    "lblPassword": "Wachtwoord",
+    "hlpPassword": "e*Berichtwachtwoord",
+    "tblTitleCallNr": "Pager-nummer",
+    "tblTitleEnableNotification": "Gebruik voor meldingen"
+}

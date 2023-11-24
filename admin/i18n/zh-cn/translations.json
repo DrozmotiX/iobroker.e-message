@@ -1,0 +1,10 @@
+{
+    "e-message adapter settings": "电子邮件的适配器设置",
+    "userID": "电子*消息用户 ID",
+    "lblUsername": "用户名",
+    "hlpUsername": "e*消息用户名",
+    "lblPassword": "密码",
+    "hlpPassword": "e*留言密码",
+    "tblTitleCallNr": "寻呼机号码",
+    "tblTitleEnableNotification": "用于通知"
+}

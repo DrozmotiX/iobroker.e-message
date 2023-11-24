@@ -1,0 +1,10 @@
+{
+	"e-message adapter settings": "Adapter settings for e-message",
+	"userID": "e*message User ID",
+	"lblUsername": "Username",
+	"hlpUsername": "e*Message username",
+	"lblPassword": "Password",
+	"hlpPassword": "e*Message password",
+	"tblTitleCallNr": "Pager Number",
+	"tblTitleEnableNotification": "Use for notifications"
+}

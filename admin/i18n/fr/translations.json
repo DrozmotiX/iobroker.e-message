@@ -1,0 +1,10 @@
+{
+    "e-message adapter settings": "Paramètres de l'adaptateur pour les messages électroniques",
+    "userID": "ID utilisateur du message électronique",
+    "lblUsername": "Nom d'utilisateur",
+    "hlpUsername": "Nom d'utilisateur e*Message",
+    "lblPassword": "Mot de passe",
+    "hlpPassword": "Mot de passe e*Message",
+    "tblTitleCallNr": "Numéro de téléavertisseur",
+    "tblTitleEnableNotification": "Utiliser pour les notifications"
+}

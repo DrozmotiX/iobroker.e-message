@@ -1,0 +1,10 @@
+{
+    "e-message adapter settings": "Configurações do adaptador para mensagem eletrônica",
+    "userID": "e*mensagem ID do usuário",
+    "lblUsername": "Nome de usuário",
+    "hlpUsername": "e*Nome de usuário da mensagem",
+    "lblPassword": "Senha",
+    "hlpPassword": "e*Mensagem de senha",
+    "tblTitleCallNr": "Número do pager",
+    "tblTitleEnableNotification": "Usar para notificações"
+}

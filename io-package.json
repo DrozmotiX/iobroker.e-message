@@ -1,0 +1,111 @@
+{
+    "common": {
+        "name": "e-message",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "e*Message",
+        "titleLang": {
+            "en": "e*Message",
+            "de": "e*Nachricht",
+            "ru": "электронное сообщение",
+            "pt": "e*Mensagem",
+            "nl": "e*Bericht",
+            "fr": "e*Message",
+            "it": "e*Messaggio",
+            "es": "e*Mensaje",
+            "pl": "e*Wiadomość",
+            "uk": "e*повідомлення",
+            "zh-cn": "电子*消息"
+        },
+        "desc": {
+            "en": "e*Message offers professional solutions for time- and business-critical situations",
+            "de": "e*Message bietet professionelle Lösungen für zeit- und geschäftskritische Situationen",
+            "ru": "e*Message предлагает профессиональные решения для критичных по времени и бизнесу ситуаций.",
+            "pt": "e*Message oferece soluções profissionais para situações críticas de negócios e de tempo",
+            "nl": "e*Message biedt professionele oplossingen voor tijd- en bedrijfskritische situaties",
+            "fr": "e*Message propose des solutions professionnelles pour les situations critiques en termes de temps et d'affaires",
+            "it": "e*Message offre soluzioni professionali per situazioni critiche in termini di tempo e di business",
+            "es": "e*Message ofrece soluciones profesionales para situaciones en las que el tiempo y el negocio son críticos",
+            "pl": "e*Message oferuje profesjonalne rozwiązania w sytuacjach krytycznych czasowo i biznesowo",
+            "uk": "e*Message пропонує професійні рішення для критичних ситуацій, пов’язаних із часом і бізнесом",
+            "zh-cn": "e*Message 为时间和业务关键的情况提供专业的解决方案"
+        },
+        "authors": [
+            "DutchmanNL <oss@DrozmotiX.eu>"
+        ],
+        "keywords": [
+            "e-massage",
+            "pager",
+            "alarm",
+            "messaging"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "build/main.js",
+        "icon": "e-message.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/DrozmotiX/ioBroker.e-message/main/admin/e-message.png",
+        "readme": "https://github.com/DrozmotiX/ioBroker.e-message/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "messaging",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=3.3.22"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=5.1.13"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
+}
